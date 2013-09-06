@@ -9,7 +9,7 @@ class UnionFindTest extends FlatSpec with Matchers {
     val uf = new UnionFind(N)
 	val p = 1;
 	val q = 2;
-	uf.join(p,q);
+	uf.union(p,q);
 	uf.connected(p,q) should be (true)
   } 
   
@@ -19,7 +19,7 @@ class UnionFindTest extends FlatSpec with Matchers {
 	val p = 1;
 	val q = 2;
 	val r = 3;
-	uf.join(p,q);
+	uf.union(p,q);
 	uf.connected(p,r) should be (false)
   }
 
