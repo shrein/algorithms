@@ -1,10 +1,11 @@
 package org.tensorial.test.algo.graph
 
-import org.tensorial.algo.graph._
+import org.tensorial.algo.mutable.graph._
 import org.scalatest._
 
 class UnionFindTest extends FlatSpec with Matchers {
-  "A UnionFind" should "mark as connected two set just joined with union" in {
+  
+  "A UnionFind" should "mark as connected two set just joined" in {
     val N = 10;
     val uf = new UnionFind(N)
 	val p = 1;
