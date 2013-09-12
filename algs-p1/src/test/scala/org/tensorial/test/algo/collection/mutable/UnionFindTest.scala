@@ -1,6 +1,6 @@
-package org.tensorial.test.algo.graph
+package org.tensorial.test.algo.collection.mutable
 
-import org.tensorial.algo.mutable.graph._
+import org.tensorial.algo.collection.mutable.UnionFind
 import org.scalatest._
 
 class UnionFindTest extends FlatSpec with Matchers {

@@ -1,4 +1,4 @@
-package org.tensorial.algo.mutable.graph
+package org.tensorial.algo.collection.mutable
 
 /**
  * @author Juan
